@@ -1,0 +1,27 @@
+{
+    "name": "hustshenl/yii2-aliyun-sms",
+    "description": "yii2 aliyun sms",
+    "keywords": ["yii2","aliyun", "sms"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/hustshenl/yii2-aliyun-sms/issues",
+        "wiki": "https://github.com/hustshenl/yii2-aliyun-sms/wiki",
+        "source": "https://github.com/hustshenl/yii2-aliyun-sms"
+    },
+    "authors": [
+        {
+            "name": "Shen.L",
+            "email": "shen@shenl.com"
+        }
+    ],
+    "require": {
+        "php": ">5.5",
+        "hustshenl/aliyun-sms":"~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hustshenl\\aliyun\\sms\\": "src"
+        }
+    }
+}
